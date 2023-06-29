@@ -1,6 +1,7 @@
 /*
 ** Bootstrap over-rides
 */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Roboto:wght@400;500&display=swap');
 body {
     font-family: 'Roboto', sans-serif;
 	display: flex;
@@ -18,6 +19,14 @@ a:hover,a:focus{
 }
 .page-content {
 	flex: 1 0 auto;
+}
+.antiCls { 
+    visibility: hidden; 
+}
+@media (max-width: 767px) {
+	.antiCls-xs { 
+		visibility: hidden; 
+	}
 }
 footer {
 	flex-shrink: 0;
